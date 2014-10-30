@@ -1,0 +1,14 @@
+
+
+
+
+
+.build/uno-f676e88f/src/sketch.cpp : src/sketch.ino
+	@mkdir -p .build/uno-f676e88f/src
+	@echo [93msrc/sketch.ino[0m
+	@/usr/bin/ino preproc -d /opt/arduino -o $@ $^
+
+
+all : .build/uno-f676e88f/src/sketch.cpp
+	@true
+

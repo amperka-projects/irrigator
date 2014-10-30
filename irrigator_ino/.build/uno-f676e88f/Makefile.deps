@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+	
+
+
+
+.build/uno-f676e88f/arduino/wiring_analog.d : /opt/arduino/hardware/arduino/cores/arduino/wiring_analog.c
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/wiring_analog.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/Stream.d : /opt/arduino/hardware/arduino/cores/arduino/Stream.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/Stream.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/HardwareSerial.d : /opt/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/HardwareSerial.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/avr-libc/realloc.d : /opt/arduino/hardware/arduino/cores/arduino/avr-libc/realloc.c
+	@mkdir -p .build/uno-f676e88f/arduino/avr-libc
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/avr-libc/realloc.d .build/uno-f676e88f/arduino/avr-libc/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/avr-libc/malloc.d : /opt/arduino/hardware/arduino/cores/arduino/avr-libc/malloc.c
+	@mkdir -p .build/uno-f676e88f/arduino/avr-libc
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/avr-libc/malloc.d .build/uno-f676e88f/arduino/avr-libc/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/wiring_digital.d : /opt/arduino/hardware/arduino/cores/arduino/wiring_digital.c
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/wiring_digital.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/main.d : /opt/arduino/hardware/arduino/cores/arduino/main.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/main.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/wiring.d : /opt/arduino/hardware/arduino/cores/arduino/wiring.c
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/wiring.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/new.d : /opt/arduino/hardware/arduino/cores/arduino/new.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/new.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/HID.d : /opt/arduino/hardware/arduino/cores/arduino/HID.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/HID.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/WString.d : /opt/arduino/hardware/arduino/cores/arduino/WString.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/WString.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/wiring_shift.d : /opt/arduino/hardware/arduino/cores/arduino/wiring_shift.c
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/wiring_shift.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/CDC.d : /opt/arduino/hardware/arduino/cores/arduino/CDC.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/CDC.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/IPAddress.d : /opt/arduino/hardware/arduino/cores/arduino/IPAddress.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/IPAddress.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/USBCore.d : /opt/arduino/hardware/arduino/cores/arduino/USBCore.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/USBCore.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/WMath.d : /opt/arduino/hardware/arduino/cores/arduino/WMath.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/WMath.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/wiring_pulse.d : /opt/arduino/hardware/arduino/cores/arduino/wiring_pulse.c
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/wiring_pulse.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/Tone.d : /opt/arduino/hardware/arduino/cores/arduino/Tone.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/Tone.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/Print.d : /opt/arduino/hardware/arduino/cores/arduino/Print.cpp
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/Print.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+.build/uno-f676e88f/arduino/WInterrupts.d : /opt/arduino/hardware/arduino/cores/arduino/WInterrupts.c
+	@mkdir -p .build/uno-f676e88f/arduino
+	@/opt/arduino/hardware/tools/avr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=105 -I/opt/arduino/hardware/arduino/cores/arduino -ffunction-sections -fdata-sections -g -Os -w -I/opt/arduino/hardware/arduino/variants/standard -I/opt/arduino/hardware/arduino/cores/arduino -I/opt/arduino/hardware/arduino/cores/arduino/avr-libc -I/opt/arduino/libraries/TFT -I/opt/arduino/libraries/TFT/utility -I/opt/arduino/libraries/Robot_Motor -I/opt/arduino/libraries/Servo -I/opt/arduino/libraries/SoftwareSerial -I/opt/arduino/libraries/Robot_Control -I/opt/arduino/libraries/Robot_Control/utility -I/opt/arduino/libraries/WiFi -I/opt/arduino/libraries/WiFi/utility -I/opt/arduino/libraries/Ethernet -I/opt/arduino/libraries/Ethernet/utility -I/opt/arduino/libraries/SPI -I/opt/arduino/libraries/LiquidCrystal -I/opt/arduino/libraries/Wire -I/opt/arduino/libraries/Wire/utility -I/opt/arduino/libraries/Firmata -I/opt/arduino/libraries/SD -I/opt/arduino/libraries/SD/utility -I/opt/arduino/libraries/EEPROM -I/opt/arduino/libraries/Stepper -I/opt/arduino/libraries/GSM -I/opt/arduino/libraries/Esplora  -MM $^ > $@
+	
+	@printf ".build/uno-f676e88f/arduino/WInterrupts.d .build/uno-f676e88f/arduino/" | cat - $@ > $@~ && mv $@~ $@
+
+
+
+.build/uno-f676e88f/arduino/dependencies.d : .build/uno-f676e88f/arduino/wiring_analog.d .build/uno-f676e88f/arduino/Stream.d .build/uno-f676e88f/arduino/HardwareSerial.d .build/uno-f676e88f/arduino/avr-libc/realloc.d .build/uno-f676e88f/arduino/avr-libc/malloc.d .build/uno-f676e88f/arduino/wiring_digital.d .build/uno-f676e88f/arduino/main.d .build/uno-f676e88f/arduino/wiring.d .build/uno-f676e88f/arduino/new.d .build/uno-f676e88f/arduino/HID.d .build/uno-f676e88f/arduino/WString.d .build/uno-f676e88f/arduino/wiring_shift.d .build/uno-f676e88f/arduino/CDC.d .build/uno-f676e88f/arduino/IPAddress.d .build/uno-f676e88f/arduino/USBCore.d .build/uno-f676e88f/arduino/WMath.d .build/uno-f676e88f/arduino/wiring_pulse.d .build/uno-f676e88f/arduino/Tone.d .build/uno-f676e88f/arduino/Print.d .build/uno-f676e88f/arduino/WInterrupts.d
+	@echo [96mScanning dependencies of arduino[0m
+	@mkdir -p .build/uno-f676e88f/arduino
+	@cat $^ > $@;
+
+all : .build/uno-f676e88f/arduino/dependencies.d
+	@true
+
